@@ -1,0 +1,37 @@
+.advant {
+    padding: 57px 0 51px 0;
+    min-height: 590px;
+    background-color: #f3f3f3;
+    &__title {
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    .item-advant {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        &__item {
+            display: flex;
+            width: 490px;
+            min-height: 65px;
+            justify-content: space-between;
+            margin-bottom: 37px;
+            &:nth-child(7), &:nth-child(8) {
+                margin-bottom: 0;
+            }
+        }
+        &__text {
+            width: 415px;
+        }
+        &__title {
+            text-align: left;
+        }
+        &__descr {
+            text-align-last: left;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            color: $text_color;
+        }
+    }
+}

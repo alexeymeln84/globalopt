@@ -1,0 +1,42 @@
+.work {
+    padding: 51px 0 57px 0;
+    min-height: 320px;
+    &__title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__subtitle {
+        padding: 0 130px 37px 130px;
+        text-align: center;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        color: $title_color;
+    }
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.column-work {
+    width: 360px;
+    min-height: 170px;
+    &__img {
+        margin-bottom: 28px;
+        img {
+            width: 100%;
+        }
+    }
+    &__title {
+        text-align: center;
+        margin-bottom: 13px;
+    }
+    &__descr {
+        min-height: 100px;
+        font-size: 14px;
+        font-weight: 300;
+        color: $text_color;
+        text-align: center;
+    }
+}

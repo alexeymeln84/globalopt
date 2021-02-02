@@ -1,0 +1,65 @@
+.footer {
+    padding: 24px 0 28px 0;
+    background-color: $bg_color;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+    }
+    &__logo {
+        margin-right: 43px;
+    }
+    &__line {
+        width: 100%;
+        height: 1px;
+        background-color: $white_color;
+        opacity: 0.3;
+        margin-top: 26px;
+    }
+    &__lower {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 19px;
+    }
+    &__copyrigh {
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: $white_color;
+        opacity: 0.6;
+    }
+    &__privacy {
+        margin-left: -220px;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        text-decoration: none;
+        color: $main_color;
+        &:hover {
+            text-decoration: underline;
+            color: $main_color;
+        }
+    }
+    &__web-dev {
+        display: flex;
+        align-items: center;
+        img {
+            opacity: 0.78;
+        }
+    }
+    &__text {
+        opacity: 0.6;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: $white_color;
+        margin-right: 10px;
+    }
+}

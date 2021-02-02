@@ -1,0 +1,13 @@
+.small-line {
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        width: 150px;
+        height: 1px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $main_color;
+        top: -14px;
+    }
+}

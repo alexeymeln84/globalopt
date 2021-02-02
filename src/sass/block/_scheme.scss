@@ -1,0 +1,14 @@
+.scheme {
+    padding: 51px 0 46px 0;
+    background-color: #f3f3f3;
+    &__title {
+        text-align: center;
+        margin-bottom: 33px;
+    }
+    &__body {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        min-height: 375px;
+    }
+}

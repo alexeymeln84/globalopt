@@ -1,0 +1,69 @@
+.title {
+    &_fz16 {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 700;
+        margin-bottom: 0;
+        color: $main_color;
+        &_white {
+            color: $white_color;
+        }
+        &_lh26 {
+            line-height: 26px;
+        }
+    }
+    &_fz18 {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: $main_color;
+        &_black {
+            color: $text_color;
+        }
+            }
+    &_fz24 {
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: $white_color;
+    }
+    &_fz26 {
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $title_color;
+        &_white {
+            color: #ffffff;
+        }
+    }
+    &_fz28 {
+        font-size: 28px;
+        line-height: 30px;
+        text-transform: none;
+        color: $main_color;
+        font-weight: 400;
+        &_black {
+            line-height: 23px;
+            color: $text_color;
+        }
+    }
+    &_fz72 {
+        margin-top: 26px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 72px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $main_color;
+    }
+    &_fz42 {
+        margin-top: 9px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 42px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $white_color;
+    }
+}

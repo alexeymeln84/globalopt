@@ -1,0 +1,162 @@
+//слайдер 
+// .slick-slider {
+
+// }
+// оболочка слайдера
+// .slick-list {
+    // width: 605px;
+    // margin: 0 auto;
+// }
+// лента слайдов
+// .slick-track {
+// }
+
+// 
+// слайд
+// .slick-slide { 
+// }
+// активный слайд
+// .slick-slide.slick-active {
+// }
+// основной слайд
+// .slick-slide.slick-current {
+
+// }
+// слайд по центру
+// .skick-slide.slick-center {
+
+// }
+
+// 
+// стрелка
+// .slick-arrow {
+
+// }
+// стрелка влево
+// .slick-arrow.slick-prev {
+
+// }
+// стрелка вправо
+// .slick-arrow.slick-next {
+
+// }
+// стрелка не активна
+// .slick-arrow.slick-disabled {
+
+// }
+
+// 
+/* Точки (булиты) */
+// .slick-dots{
+
+// }
+// .slick-dots li{
+
+// }
+/* Активная точка */
+// .slick-dots li.slick-active{
+
+// }
+/* Элемент точки */
+// .slick-dots li button{
+
+// }
+
+.slider-feed {
+    transition: all .6s;
+    &__img {
+        margin-bottom: 19px;
+        img {
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+    }
+    &__title {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+    &__item {
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+// стилизация стрелок у этого слайда
+.slick-slider {
+    position: relative;
+}
+
+.slider-feed .slick-arrow {
+    position: absolute;
+    top: calc(50% - 95px);
+    font-size: 0;
+    width: 14px;
+    height: 46px;
+    z-index: 10;
+}
+
+.slider-feed .slick-next {
+    background: url('../img/slider/right.png') center (center / cover) no-repeat;
+    background-color: none;
+    border: none;
+    right: 50%;
+    transform: translateX(calc(+50% + 105px));
+}
+.slider-feed .slick-prev {
+    background: url('../img/slider/left.png') center (center / cover) no-repeat;
+    background-color: none;
+    border: none;
+    left: 50%;
+    transform: translateX(calc(-50% - 105px));
+    border: none;
+}
+
+.slick-slide {
+    opacity: 0.2;
+    transform: scale(0.7);
+    max-width: 600px;
+    margin-right: -70px;
+}
+
+.slick-center {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.slick-dots {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    li {
+        margin-right: 15px;
+        &:nth-child(4) {
+            margin-right: 0;
+        }
+    }
+    button {
+        padding: 0;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        background-color: #fff;
+        &:focus {
+            outline: none;
+        }
+    }
+    .slick-active {
+        button {
+            background-color: #000;
+        }
+    }
+}

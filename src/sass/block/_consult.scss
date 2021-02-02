@@ -1,0 +1,30 @@
+.consult {
+    padding-bottom: 80px;
+    position: relative;
+    &__title {
+        text-align: center;
+        margin-bottom: 71px;
+    }
+    &__icon {
+        position: absolute;
+        width: 124px;
+        height: 124px;
+        background-color: $white_color;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border:1px solid $main_color;
+        border-radius: 100%;
+        margin: 0 auto;
+    }
+}
